@@ -1,1 +1,3 @@
-# Updated-Properties-and-Size-Change-Detection
+# Updated Properties & Size Change Detection
+<h2>Description</h2>
+This SQL query identifies and analyzes properties with building size changes based on the most recent data. It first creates a ranked list of property snapshots ordered by the most recent update dates. From this list, it selects the most current property details and compares them to the second most recent property data. The query then calculates the percentage change in the building size and identifies properties with significant size changes (25% or more). It only includes properties with specific statuses and provides a detailed comparison of the most recent and second most recent building sizes.
